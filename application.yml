@@ -9,12 +9,12 @@ eureka:
     hostname: localhost
 
 microservice:
-  payment-service:
+  ms-payment-service:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
         
-  order-service:
+  ms-order-service:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
