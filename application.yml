@@ -20,4 +20,4 @@ microservice:
         uri: http://ORDER-SERVICE/order/bookOrder
 
 weblink:
-  uri: http://google.com
+  uri:http://google.com
