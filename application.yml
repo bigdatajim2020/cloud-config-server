@@ -9,15 +9,11 @@ eureka:
     hostname: localhost
 
 microservice:
-  ms-payment-service:
+  payment-service:
     endpoints:
       endpoint:
         uri: http://PAYMENT-SERVICE/payment/doPayment
-        
-  ms-order-service:
+  order-service:
     endpoints:
       endpoint:
         uri: http://ORDER-SERVICE/order/bookOrder
-
-weblink:
-  uri:http://google.com
